@@ -1,0 +1,62 @@
+
+Release notes for GStreamer Python bindings 0.10.16 "Distorted memory"
+        
+
+
+The GStreamer team is proud to announce a new release
+in the 0.10.x stable series of the
+GStreamer Python Bindings.
+
+
+The 0.10.x series is a stable series targeted at end users.
+It is not API or ABI compatible with the stable 0.8.x series.
+It is, however, parallel installable with the 0.8.x series.
+
+
+  
+
+Features of this release
+    
+      * Update bindings for GStreamer 0.10.24
+      * Fixes for the python plugin loader
+
+Bugs fixed in this release
+     
+      * 580992 : gst_preset_get_preset_names not wrapped in gst-python
+      * 583378 : libgstpython.so causes a segfault
+      * 583607 : Error when building from tarball
+      * 584445 : gst.TagList getters and setters should convert unicode ob...
+
+Download
+
+You can find source releases of gst-python in the download directory:
+http://gstreamer.freedesktop.org/src/gst-python/
+
+GStreamer Homepage
+
+More details can be found on the project's website:
+http://gstreamer.freedesktop.org/
+
+Support and Bugs
+
+We use GNOME's bugzilla for bug reports and feature requests:
+http://bugzilla.gnome.org/enter_bug.cgi?product=GStreamer
+
+Developers
+
+GStreamer is stored in Git, hosted at git.freedesktop.org, and can be cloned from there.
+Interested developers of the core library, plug-ins, and applications should
+subscribe to the gstreamer-devel list. If there is sufficient interest we
+will create more lists as necessary.
+
+        
+Applications
+  
+Contributors to this release
+    
+      * Edward Hervey
+      * Jan Schmidt
+      * Olivier Crête
+      * Stefan Kost
+      * Thomas Vander Stichele
+ 
