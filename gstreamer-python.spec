@@ -2,7 +2,7 @@
 
 Name:           gstreamer-python
 Version:        0.10.22
-Release:        4%{?dist}
+Release:        6%{?dist}
 Summary:        Python bindings for GStreamer
 
 Group:          Development/Languages
@@ -88,6 +88,12 @@ rm -fr $RPM_BUILD_ROOT%{_datadir}/gst-python/%{majorminor}/examples
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.10.22-6
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.10.22-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.10.22-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
